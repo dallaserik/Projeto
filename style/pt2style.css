@@ -1,0 +1,86 @@
+/* Estilos gerais para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, p {
+    color: #333;
+}
+
+/* Container principal */
+.main-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+/* Barra de navegação */
+.nav-bar {
+    margin: 30px 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2rem;
+}
+
+.nav-bar ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Descrição */
+.description {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+/* Botão de ação */
+.action-btn button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-btn button:hover {
+    background-color: #2980b9;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
